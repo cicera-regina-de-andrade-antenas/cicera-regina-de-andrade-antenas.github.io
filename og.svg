@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120723"/>
+      <stop offset="0.5" stop-color="#0d0519"/>
+      <stop offset="1" stop-color="#23123e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0.8">
+      <stop offset="0" stop-color="rgba(141,89,226,0.45)"/>
+      <stop offset="1" stop-color="rgba(229,131,216,0.05)"/>
+    </linearGradient>
+    <pattern id="pat" width="36" height="36" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="36" stroke="#ffffff" stroke-opacity="0.05"/></pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="45"/></filter>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <g filter="url(#blur)"><ellipse cx="1159" cy="750" rx="397" ry="111" fill="#8d59e2" opacity="0.213"/><ellipse cx="372" cy="770" rx="329" ry="98" fill="#e583d8" opacity="0.111"/><ellipse cx="260" cy="857" rx="395" ry="134" fill="#c989e2" opacity="0.140"/><ellipse cx="1107" cy="361" rx="317" ry="329" fill="#8d59e2" opacity="0.158"/><ellipse cx="689" cy="461" rx="335" ry="244" fill="#e583d8" opacity="0.208"/></g>
+  <rect width="1600" height="1200" fill="url(#glow)" opacity="0.4"/>
+  <rect width="1600" height="1200" fill="url(#pat)" opacity="0.75"/>
+  <path d="M707 188 L747 228 L707 268 L667 228 Z" fill="rgba(141,89,226,0.1)" stroke="rgba(141,89,226,0.22)"/><path d="M853 156 L914 216 L853 277 L793 216 Z" fill="rgba(229,131,216,0.1)" stroke="rgba(229,131,216,0.22)"/><path d="M1006 173 L1061 227 L1006 282 L952 227 Z" fill="rgba(201,137,226,0.1)" stroke="rgba(201,137,226,0.22)"/><path d="M1153 145 L1236 229 L1153 312 L1070 229 Z" fill="rgba(141,89,226,0.1)" stroke="rgba(141,89,226,0.22)"/><path d="M1296 161 L1356 222 L1296 282 L1235 222 Z" fill="rgba(229,131,216,0.1)" stroke="rgba(229,131,216,0.22)"/><path d="M1454 145 L1532 222 L1454 300 L1377 222 Z" fill="rgba(201,137,226,0.1)" stroke="rgba(201,137,226,0.22)"/><path d="M1591 142 L1670 220 L1591 299 L1513 220 Z" fill="rgba(141,89,226,0.1)" stroke="rgba(141,89,226,0.22)"/><path d="M702 424 L753 475 L702 525 L652 475 Z" fill="rgba(229,131,216,0.1)" stroke="rgba(229,131,216,0.22)"/><path d="M841 390 L926 475 L841 561 L755 475 Z" fill="rgba(201,137,226,0.1)" stroke="rgba(201,137,226,0.22)"/><path d="M1001 421 L1068 488 L1001 555 L934 488 Z" fill="rgba(141,89,226,0.1)" stroke="rgba(141,89,226,0.22)"/><path d="M1151 418 L1215 482 L1151 547 L1087 482 Z" fill="rgba(229,131,216,0.1)" stroke="rgba(229,131,216,0.22)"/><path d="M1293 416 L1364 487 L1293 559 L1221 487 Z" fill="rgba(201,137,226,0.1)" stroke="rgba(201,137,226,0.22)"/><path d="M1451 402 L1533 483 L1451 565 L1370 483 Z" fill="rgba(141,89,226,0.1)" stroke="rgba(141,89,226,0.22)"/><path d="M1604 434 L1656 486 L1604 538 L1551 486 Z" fill="rgba(229,131,216,0.1)" stroke="rgba(229,131,216,0.22)"/>
+  <ellipse cx="323" cy="295" rx="420" ry="260" fill="rgba(141,89,226,0.1)" filter="url(#blur)"/>
+  <ellipse cx="1437" cy="949" rx="480" ry="300" fill="rgba(229,131,216,0.1)" filter="url(#blur)"/>
+  <text x="72" y="1110" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="700" fill="rgba(255,255,255,0.07)" letter-spacing="10">CICERA REGINA DE ANDRADE ANTEN</text>
+</svg>
